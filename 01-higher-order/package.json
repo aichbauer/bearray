@@ -5,8 +5,10 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "npm run babel",
+    "fix": "eslint lib test --fix",
+    "pretest": "npm run lint",
     "test": "nyc ava",
-    "lint": "eslint lib",
+    "lint": "eslint lib test",
     "babel": "babel lib -d dest"
   },
   "ava": {
