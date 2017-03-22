@@ -1,7 +1,7 @@
 const ʕ·ᴥ·ʔ = function (input) {
   const checkArray = function (i) {
     if (Object.prototype.toString.call(input) !== '[object Array]') {
-      throw new Error('ʕ·ᴥ·ʔ is grumpy and says: "Your input should be a valid array!"')
+      throw new Error('ʕ·ᴥ·ʔ is grumpy and says: "Your input should be a valid array!"');
     }
 
     if (!this.output) {
@@ -28,7 +28,7 @@ const ʕ·ᴥ·ʔ = function (input) {
 
     checkArray.call(this, input);
 
-    this.output.forEach((value, index) => cb(value, index) ? result.push(value) : undefined);
+    this.output.forEach((value, index) => (cb(value, index) ? result.push(value) : undefined));
     this.output = result;
 
     return this;
@@ -50,7 +50,7 @@ const ʕ·ᴥ·ʔ = function (input) {
     });
 
     if (old === 66696582) {
-      this.message = 'ʕ·ᴥ·ʔ  says: Yes you found me! Think in dezimal!'
+      this.message = 'ʕ·ᴥ·ʔ  says: Yes you found me! Think in decimal!';
     }
 
     this.output = [old];
