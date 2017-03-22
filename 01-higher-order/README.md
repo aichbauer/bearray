@@ -1,17 +1,30 @@
-# ʕ·ᴥ·ʔ says: "Hey there!"
+# bearray
 
-## functions
+> ʕ·ᴥ·ʔ says: "Hey there!"
+
+## Installation
+
+```sh
+$ npm i bearray --save
+```
+or
+```sh
+$ yarn add bearray
+```
+
+
+## Methods
 - [filter](#filter)
 - [map](#map)
 - [filter](#reduce)
 
 ### filter
-> Ƹ̵̡Ӝ̵̨̄Ʒ 
+> Ƹ̵̡Ӝ̵̨̄Ʒ
 
 Filter an array.
 
 ```js
-import ʕ·ᴥ·ʔ from 'bearray';
+import { ʕ·ᴥ·ʔ } from 'bearray';
 
 const ᕕ·ᐛ·ᕗ = ʕ·ᴥ·ʔ([1, 2, 3, 4]).Ƹ̵̡Ӝ̵̨̄Ʒ((value, index) => {
   return value % 2 === 0;
@@ -26,7 +39,7 @@ const ᕕ·ᐛ·ᕗ = ʕ·ᴥ·ʔ([1, 2, 3, 4]).Ƹ̵̡Ӝ̵̨̄Ʒ((value, index) 
 Map over an array.
 
 ```js
-import ʕ·ᴥ·ʔ from 'bearray';
+import { ʕ·ᴥ·ʔ } from 'bearray';
 
 const ᕕ·ᐛ·ᕗ = ʕ·ᴥ·ʔ([1, 2, 3, 4]).ʕʘ̅͜ʘ̅ʔ((value, index) => {
   return value + value;
@@ -41,7 +54,7 @@ const ᕕ·ᐛ·ᕗ = ʕ·ᴥ·ʔ([1, 2, 3, 4]).ʕʘ̅͜ʘ̅ʔ((value, index) =>
 Reduce an array.
 
 ```js
-import ʕ·ᴥ·ʔ from 'bearray';
+import { ʕ·ᴥ·ʔ } from 'bearray';
 
 const ᕕ·ᐛ·ᕗ = ʕ·ᴥ·ʔ([1, 2, 3, 4]).ಠ_ಠ((sum, current) => {
   return sum + current;

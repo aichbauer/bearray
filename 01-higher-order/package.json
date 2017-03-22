@@ -1,15 +1,17 @@
 {
-  "name": "01-higher-order",
+  "name": "bearray",
   "version": "1.0.0",
-  "description": "",
+  "description": "A fun package with chainable higher order functions",
   "main": "dist/index.js",
   "scripts": {
     "start": "npm run babel",
     "fix": "eslint lib test --fix",
+    "precommit": "npm test",
     "pretest": "npm run lint",
     "test": "nyc ava",
     "lint": "eslint lib test",
-    "babel": "babel lib -d dest"
+    "babel": "babel lib -d dest",
+    "prepublish": "npm run babel"
   },
   "ava": {
     "require": [
@@ -23,7 +25,10 @@
       "test"
     ]
   },
-  "author": "",
+  "author": "Lukas Aichbauer <rudolfson.junior@gmail.com>",
+  "contributors": [
+    "Jan Peer Stöcklmair <janpeer264@gmail.com> (https://jpeer.at)"
+  ],
   "license": "ISC",
   "devDependencies": {
     "ava": "^0.18.2",
@@ -33,6 +38,7 @@
     "eslint": "^3.18.0",
     "eslint-config-airbnb-base": "^11.1.1",
     "eslint-plugin-import": "^2.2.0",
+    "husky": "^0.13.2",
     "nyc": "^10.1.2"
   }
 }

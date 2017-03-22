@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import ʕ·ᴥ·ʔ from '../lib';
+import { ʕ·ᴥ·ʔ } from '../lib';
 
 const notValidArr = 'not a valid array';
 const arr = [1, 2, 3, 4];

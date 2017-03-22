@@ -65,4 +65,6 @@ const ʕ·ᴥ·ʔ = function (input) {
   };
 };
 
-export default ʕ·ᴥ·ʔ;
+export {
+  ʕ·ᴥ·ʔ,
+};
