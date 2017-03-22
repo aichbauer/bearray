@@ -15,7 +15,7 @@
     "url": "git+https://github.com/rudolfsonjunior/bearray.git"
   },
   "license": "ISC",
-  "main": "dist/index.js",
+  "main": "dest/index.js",
   "scripts": {
     "start": "npm run babel",
     "fix": "eslint lib test --fix",
