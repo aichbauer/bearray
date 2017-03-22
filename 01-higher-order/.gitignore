@@ -1,0 +1,7 @@
+# modules
+node_modules
+
+# generated files
+.nyc_output
+coverage
+dest
