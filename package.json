@@ -2,6 +2,19 @@
   "name": "bearray",
   "version": "1.0.0",
   "description": "A fun package with chainable higher order functions",
+  "author": "Lukas Aichbauer <rudolfson.junior@gmail.com>",
+  "contributors": [
+    "Jan Peer Stöcklmair <janpeer264@gmail.com> (https://jpeer.at)"
+  ],
+    "bugs": {
+    "url": "https://github.com/rudolfsonjunior/bearray/issues"
+  },
+  "homepage": "https://github.com/rudolfsonjunior/bearray#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rudolfsonjunior/bearray.git"
+  },
+  "license": "ISC",
   "main": "dist/index.js",
   "scripts": {
     "start": "npm run babel",
@@ -25,11 +38,18 @@
       "test"
     ]
   },
-  "author": "Lukas Aichbauer <rudolfson.junior@gmail.com>",
-  "contributors": [
-    "Jan Peer Stöcklmair <janpeer264@gmail.com> (https://jpeer.at)"
+  "keywords": [
+    "fun",
+    "higher",
+    "order",
+    "function",
+    "map",
+    "filter",
+    "reduce",
+    "array",
+    "bear",
+    "utf8"
   ],
-  "license": "ISC",
   "devDependencies": {
     "ava": "^0.18.2",
     "babel-cli": "^6.24.0",
