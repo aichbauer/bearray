@@ -9,7 +9,7 @@ const ʕ·ᴥ·ʔ = function (input) {
     }
   };
 
-  const map = function (cb) {
+  const ʕʘ̅͜ʘ̅ʔ = function (cb) {
     const result = [];
 
     checkArray.call(this, input);
@@ -23,7 +23,7 @@ const ʕ·ᴥ·ʔ = function (input) {
     return this;
   };
 
-  const filter = function (cb) {
+  const Ƹ̵̡Ӝ̵̨̄Ʒ = function (cb) {
     const result = [];
 
     checkArray.call(this, input);
@@ -34,7 +34,7 @@ const ʕ·ᴥ·ʔ = function (input) {
     return this;
   };
 
-  const reduce = function (cb) {
+  const ಠ_ಠ = function (cb) {
     let old;
 
     checkArray.call(this, input);
@@ -59,9 +59,9 @@ const ʕ·ᴥ·ʔ = function (input) {
   };
 
   return {
-    map,
-    filter,
-    reduce,
+    ʕʘ̅͜ʘ̅ʔ,
+    Ƹ̵̡Ӝ̵̨̄Ʒ,
+    ಠ_ಠ,
   };
 };
 
