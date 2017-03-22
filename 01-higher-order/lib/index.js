@@ -1,6 +1,12 @@
 const ʕ·ᴥ·ʔ = function (input) {
   const checkArray = function (i) {
-    if (!this.output) this.output = i;
+    if (Object.prototype.toString.call(input) !== '[object Array]') {
+      throw new Error('ʕ·ᴥ·ʔ is grumpy and says: "Your input should be a valid array!"')
+    }
+
+    if (!this.output) {
+      this.output = i;
+    }
   };
 
   const map = function (cb) {
@@ -42,6 +48,10 @@ const ʕ·ᴥ·ʔ = function (input) {
 
       old = cb(old, value);
     });
+
+    if (old === 66696582) {
+      this.message = 'ʕ·ᴥ·ʔ  says: Yes you found me! Think in dezimal!'
+    }
 
     this.output = [old];
 
