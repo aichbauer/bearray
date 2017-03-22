@@ -1,6 +1,6 @@
 {
   "name": "bearray",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A fun package with chainable higher order functions",
   "author": "Lukas Aichbauer <rudolfson.junior@gmail.com>",
   "contributors": [
