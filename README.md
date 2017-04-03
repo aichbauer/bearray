@@ -19,7 +19,7 @@ $ yarn add bearray
 ## Methods
 - [filter](#filter)
 - [map](#map)
-- [filter](#reduce)
+- [reduce](#reduce)
 
 ### filter
 > Ƹ̵̡Ӝ̵̨̄Ʒ
