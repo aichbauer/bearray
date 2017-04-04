@@ -38,19 +38,19 @@ test('fails on non array in reduce', (t) => {
 test('reduce an array', (t) => {
   const reduce = ʕ·ᴥ·ʔ(arr).ಠ_ಠ((prev, curr) => prev + curr);
 
-  t.deepEqual(reduce.output, [10]);
+  t.deepEqual(reduce.ʕᵔᴥᵔʔ(), [10]);
 });
 
 test('filter all odds of an array', (t) => {
   const filter = ʕ·ᴥ·ʔ(arr).Ƹ̵̡Ӝ̵̨̄Ʒ(value => value % 2 === 0);
 
-  t.deepEqual(filter.output, [2, 4]);
+  t.deepEqual(filter.ʕᵔᴥᵔʔ(), [2, 4]);
 });
 
 test('multiply all elements by 2', (t) => {
   const map = ʕ·ᴥ·ʔ(arr).ʕʘ̅͜ʘ̅ʔ(value => value * value);
 
-  t.deepEqual(map.output, [1, 4, 9, 16]);
+  t.deepEqual(map.ʕᵔᴥᵔʔ(), [1, 4, 9, 16]);
 });
 
 test('chain some methods', (t) => {
@@ -58,7 +58,7 @@ test('chain some methods', (t) => {
     .Ƹ̵̡Ӝ̵̨̄Ʒ(value => value % 2 === 0)
     .ಠ_ಠ((prev, curr) => prev + curr);
 
-  t.deepEqual(map.output, [6]);
+  t.deepEqual(map.ʕᵔᴥᵔʔ(), [6]);
 });
 
 test('🥚', (t) => {
