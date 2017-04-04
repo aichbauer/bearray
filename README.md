@@ -20,6 +20,7 @@ $ yarn add bearray
 - [filter](#filter)
 - [map](#map)
 - [reduce](#reduce)
+- [getValue](#getValue)
 
 ### filter
 > Ƹ̵̡Ӝ̵̨̄Ʒ
@@ -33,7 +34,7 @@ const ᕕ·ᐛ·ᕗ = ʕ·ᴥ·ʔ([1, 2, 3, 4]).Ƹ̵̡Ӝ̵̨̄Ʒ((value, index) 
   return value % 2 === 0;
 });
 
-ᕕ·ᐛ·ᕗ.output // [2, 4]
+ᕕ·ᐛ·ᕗ.ʕᵔᴥᵔʔ() // [2, 4]
 ```
 
 ### map
@@ -48,7 +49,7 @@ const ᕕ·ᐛ·ᕗ = ʕ·ᴥ·ʔ([1, 2, 3, 4]).ʕʘ̅͜ʘ̅ʔ((value, index) =>
   return value + value;
 });
 
-ᕕ·ᐛ·ᕗ.output // [2, 4, 6, 8]
+ᕕ·ᐛ·ᕗ.ʕᵔᴥᵔʔ() // [2, 4, 6, 8]
 ```
 
 ### reduce
@@ -64,5 +65,18 @@ const ᕕ·ᐛ·ᕗ = ʕ·ᴥ·ʔ([1, 2, 3, 4]).ಠ_ಠ((sum, current) => {
 });
 
 
-ᕕ·ᐛ·ᕗ.output // [10]
+ᕕ·ᐛ·ᕗ.ʕᵔᴥᵔʔ() // [10]
+```
+
+### getValue
+> ʕᵔᴥᵔʔ
+
+Get the value at the end of some chained operations (see other functions as well).
+
+```js
+import { ʕ·ᴥ·ʔ } from 'bearray';
+
+const ᕕ·ᐛ·ᕗ = ʕ·ᴥ·ʔ([1, 2, 3, 4]);
+
+ᕕ·ᐛ·ᕗ.ʕᵔᴥᵔʔ() // [1, 2, 3, 4]
 ```
