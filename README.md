@@ -1,7 +1,7 @@
 # bearray
 
-[![Build Status](https://travis-ci.org/rudolfsonjunior/bearray.svg?branch=master)](https://travis-ci.org/rudolfsonjunior/bearray)
-[![Coverage Status](https://coveralls.io/repos/github/rudolfsonjunior/bearray/badge.svg?branch=master)](https://coveralls.io/github/rudolfsonjunior/bearray?branch=master)
+[![Build Status](https://travis-ci.org/aichbauer/bearray.svg?branch=master)](https://travis-ci.org/aichbauer/bearray)
+[![Coverage Status](https://coveralls.io/repos/github/aichbauer/bearray/badge.svg?branch=master)](https://coveralls.io/github/aichbauer/bearray?branch=master)
 
 > ʕ·ᴥ·ʔ says: "Hey there!"
 
